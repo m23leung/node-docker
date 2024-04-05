@@ -46,7 +46,7 @@ app.use(session({
 app.use(express.json());
 
 app.get("/api/v1", (req, res) => {
-    res.send("<h2>Hi There KOKO</h2>");
+    res.send("<h2>Hi There NARUTO!</h2>");
     console.log("yeah it ran");
 });
 
